@@ -1,0 +1,49 @@
+{
+    "alwaysOnTop": false,
+    "backgroundColor": {
+        "RGB": -1,
+        "alpha": 255,
+        "blue": 255,
+        "class": "java.awt.Color",
+        "colorSpace": {
+            "CS_sRGB": true,
+            "class": "java.awt.color.ICC_ColorSpace",
+            "numComponents": 3,
+            "profile": {
+                "PCSType": 0,
+                "class": "java.awt.color.ICC_ProfileRGB",
+                "colorSpaceType": 5,
+                "majorVersion": 2,
+                "minorVersion": 16,
+                "numComponents": 3,
+                "profileClass": 1,
+                "renderingIntent": 0
+            },
+            "type": 5
+        },
+        "green": 255,
+        "red": 255,
+        "transparency": 1
+    },
+    "class": "zephyr.preferences.Preferences",
+    "dimension": {
+        "class": "java.awt.Dimension",
+        "height": 707.0,
+        "width": 715.0
+    },
+    "fontSize": 15,
+    "language": "pt-BR",
+    "lineSeparator": "\r\n",
+    "lineWrap": true,
+    "location": {
+        "class": "java.awt.Point",
+        "x": 338.0,
+        "y": 140.0
+    },
+    "lookAndFeel": "javax.swing.plaf.nimbus.NimbusLookAndFeel",
+    "rememberCurrentSession": true,
+    "saveOnFocusLost": true,
+    "saveOnFocusLostTarget": 1,
+    "showSplashScreen": true,
+    "tabSize": 4
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_runnable_jar" name="Create the Distribution directory">
+	<property name="version" value="0.1.8" />
+	<property name="projects_dir" value="D:/Development/Projects/Java/SE/" />
+	<property name="dest_dir" value="${projects_dir}/zephyr-${version}/" />
+
+	<!-- Creates the JAR file responsible to run the application -->
+	<target name="create_runnable_jar" depends="make_distribution_directory, copy_res_diretory, copy_exe_file, copy_doc_diretory">
+		<jar destfile="${dest_dir}/zephyr.jar">
+			<manifest>
+				<attribute name="Main-Class" value="zephyr.Zephyr" />
+				<attribute name="Class-Path" value=". libraries/flexjson-2.1.jar libraries/miglayout-4.0-swing.jar" />
+			</manifest>
+			<fileset dir="${projects_dir}/Zephyr/bin" />
+		</jar>
+		<delete dir="${dest_dir}/libraries" />
+		<copydir dest="${dest_dir}/libraries" src="${projects_dir}/Zephyr/lib" />
+	</target>
+
+	<target name="copy_exe_file">
+		<copyfile dest="${dest_dir}/zephyr.exe" src="${projects_dir}/Zephyr/zephyr.exe" />
+	</target>
+
+	<target name="copy_res_diretory">
+		<copydir dest="${dest_dir}/resources" src="${projects_dir}/Zephyr/src/main/resources">
+		</copydir>
+	</target>
+
+	<target name="copy_doc_diretory">
+		<copydir dest="${dest_dir}/documents" src="${projects_dir}/Zephyr/doc">
+		</copydir>
+	</target>
+
+	<target name="make_distribution_directory">
+		<delete dir="${dest_dir}" />
+		<mkdir dir="${dest_dir}" />
+	</target>
+
+</project>

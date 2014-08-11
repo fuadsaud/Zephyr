@@ -1,0 +1,34 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>zephyr.jar</jar>
+  <outfile>D:\Development\Projects\Java\SE\Zephyr\zephyr.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>D:\Development\Projects\Java\SE\Zephyr\src\main\resources\images\zephyr.ico</icon>
+  <jre>
+    <path></path>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion>1.7.0</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>0.1.8 Alpha</txtFileVersion>
+    <fileDescription>Zephyr Text Editor</fileDescription>
+    <copyright>Fuad Saud</copyright>
+    <productVersion>0.1.8.0</productVersion>
+    <txtProductVersion>0.1.8 Alpha</txtProductVersion>
+    <productName>Zephyr Text Editor</productName>
+    <companyName>Fuad Saud</companyName>
+    <internalName>zephyr</internalName>
+    <originalFilename>zephyr.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

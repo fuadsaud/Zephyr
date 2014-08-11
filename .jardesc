@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="Zephyr/jar/zephyr-0.1.7.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Zephyr/.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=Zephyr/src&lt;zephyr{Zephyr.java[Zephyr" manifestLocation="/Zephyr/.manifest" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/Zephyr/exe.xml"/>
+        <folder path="/Zephyr/ant"/>
+        <folder path="/Zephyr/doc"/>
+        <file path="/Zephyr/.manifest"/>
+        <file path="/Zephyr/.jardesc"/>
+        <folder path="/Zephyr/.settings"/>
+        <javaElement handleIdentifier="=Zephyr/src"/>
+        <file path="/Zephyr/.project"/>
+        <file path="/Zephyr/.classpath"/>
+        <folder path="/Zephyr/lib"/>
+        <folder path="/Zephyr/res"/>
+    </selectedElements>
+</jardesc>
